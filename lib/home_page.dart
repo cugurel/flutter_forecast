@@ -12,6 +12,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String city = 'Ankara';
   int? temperature;
+  
   var woeid;
   var locationData;
   String abbr = 'c';
